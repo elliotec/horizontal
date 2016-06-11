@@ -35,5 +35,8 @@
     "eslint": "^2.12.0",
     "eslint-watch": "^2.1.11",
     "node-sass": "^3.7.0"
+  },
+  "dependencies": {
+    "horizon": "^1.1.1"
   }
 }
