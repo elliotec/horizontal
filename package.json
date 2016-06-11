@@ -4,6 +4,7 @@
   "description": "experimenting with horizon and vue",
   "main": "index.html",
   "scripts": {
+    "start": "node index.html",
     "build-js": "./node_modules/.bin/babel src/scripts --out-file dist/app.js && uglifyjs dist/app.js -o dist/app.min.js --compress",
     "build-css": "./node_modules/.bin/node-sass --output-style compressed src/styles/app.scss dist/app.css",
     "build": "npm run build-js && npm run build-css",
